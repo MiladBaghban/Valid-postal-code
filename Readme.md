@@ -1,5 +1,10 @@
-import re
-
+Example: Write a function that checks the authenticity and validity of a zip code 
+         with the following conditions and then filters valid zip codes in a 
+         sequence of user input strings and displays a new list. <br />
+<br />
+Solution: 
+    
+<pre>import re     # library of python for calculate the calculation of below <br />
 def validate_postal_code(postal_code):
     pattern = r'^\d{10}$'
     if re.match(pattern, postal_code):
